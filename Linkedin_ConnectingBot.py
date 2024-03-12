@@ -10,20 +10,17 @@ time.sleep(2)
 username = driver.find_element_by_xpath("//input[@name='session_key']")
 password = driver.find_element_by_xpath("//input[@name='session_password']")
 
-#username.send_keys('akram.1997.ca@gmail.com')
-#password.send_keys('korbaCA2013')
-username.send_keys('issaouiabir33@gmail.com')
-password.send_keys('Yaallh@96')
+
+username.send_keys('x@gmail.com')
+password.send_keys('pass')
 time.sleep(2)
 
 submit = driver.find_element_by_xpath("//button[@type='submit']").click()
 
 #***************** ADD CONTACTS ***********************
 
-#driver.get("https://www.linkedin.com/search/results/people/?network=%5B%22S%22%5D&origin=FACETED_SEARCH&page=15")
+
 keyword="ux"
-#link = "https://www.linkedin.com/search/results/people/?keywords="+keyword+"&origin=SWITCH_SEARCH_VERTICAL"
-#link = "https://www.linkedin.com/search/results/people/?keywords=1%25%20tryhackme&network=%5B%22S%22%2C%22O%22%5D&origin=FACETED_SEARCH&sid=Mwr"
 link = "https://www.linkedin.com/search/results/people/?keywords=ux&origin=SWITCH_SEARCH_VERTICAL&page=13&sid=%3BE~"
 driver.get(link)
 time.sleep(2)
