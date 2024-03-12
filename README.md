@@ -1,4 +1,4 @@
-# WebScraping_Linkedin
+# Automate_Linkedin
 Connecting and Messaging Bot - Unlimited LinkedIn Connections and Messaging Abilities
 <br>
 <br>
